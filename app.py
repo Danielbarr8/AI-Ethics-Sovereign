@@ -7,7 +7,10 @@ import datetime
 st.set_page_config(page_title="AI Ethics Sovereign", layout="wide", page_icon="⚖️")
 
 # High-Stakes Professional Styling
-st.markdown("""<style> .stApp { background-color: #000000; color: #d4af37; } </style>""", unsafe_allow_code=True)
+# Clean, professional layout for 2026 Streamlit versions
+st.title("⚖️ AI Ethics Sovereign")
+st.markdown("### Autonomous Governance & Veto Engine")
+st.info("System Status: Online | Regulatory Framework: EU AI Act 2026")
 
 st.title("⚖️ AI Ethics Sovereign")
 st.subheader("Autonomous Governance & Veto Engine")
